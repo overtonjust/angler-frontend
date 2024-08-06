@@ -1,3 +1,4 @@
+@import '../../Colors.scss';
 
 .home {
     padding: 4% 2%;
@@ -15,6 +16,8 @@
     &__button {
         border: 1px solid black;
         border-radius: .6em;
+        background-color: $dark-blue;
+        color: $white;
         padding: 1.5% 2%;
         display: flex;
         align-items: center;
@@ -117,5 +120,5 @@
 
 .nav-link {
     text-decoration: none;
-    color: black;
+    color: $dark-blue;
 }
